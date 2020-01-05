@@ -30,5 +30,5 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = "dfs.Dfs"7UY
+    mainClassName = "dfs.Dfs"
 }
