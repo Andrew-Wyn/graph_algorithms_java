@@ -8,7 +8,7 @@ dist: trusty
 jdk: openjdk11
 
 before_install:
- - chmod +x ./DFS_PRJ/gradlew
+ - chmod +x ./DFS_PRJ/gradlew 
 
 script:
   - ./DFS_PRJ/gradlew build --scan -s
