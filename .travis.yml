@@ -14,6 +14,6 @@ jdk:
   - openjdk10
   - openjdk11
 
-./gradlew assemble
-./gradlew check
-./gradlew clean build
+./DFS_PRJ/gradlew assemble
+./DFS_PRJ/gradlew check
+./DFS_PRJ/gradlew clean build
