@@ -11,4 +11,4 @@ before_install:
  - chmod +x ./DFS_PRJ/gradlew 
 
 script:
-  - ./DFS_PRJ/gradlew -p ./DFS_PRJ build --scan -s
+  - ./DFS_PRJ/gradlew -p ./DFS_PRJ clean build -s
