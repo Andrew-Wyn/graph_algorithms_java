@@ -1,6 +1,10 @@
-## Build with GRADLE
-
 [![Build Status](https://travis-ci.com/Andrew-Wyn/graph_algorithms_java.svg?branch=master)](https://travis-ci.com/Andrew-Wyn/graph_algorithms_java)
+
+
+
+<h1> Build with GRADLE </h1>
+
+/eclipse-marketplace/last-update/:name
 
 <img src="https://github.com/gradle/gradle/blob/master/gradle.png" width="350px" alt="Gradle Logo" />
 
@@ -10,7 +14,7 @@ For more information about Gradle, please visit: https://gradle.org
 
 This project adheres to the [Gradle Code of Conduct](https://gradle.org/conduct/). By participating, you are expected to uphold this code.
 
-## Downloading
+## Downloading (Gradle)
 
 You can download released versions and nightly build artifacts from: https://gradle.org/downloads
 
@@ -29,7 +33,3 @@ You can then build a Gradle based project with this installation:
 To create a full installation (includes docs):
 
     ./gradlew installAll -Pgradle_installPath=/usr/local/gradle-source-build
-
-## Contributing
-
-If you're looking to contribute to Gradle or provide a patch/pull request, you can find more info [here](https://github.com/gradle/gradle/blob/master/CONTRIBUTING.md).
