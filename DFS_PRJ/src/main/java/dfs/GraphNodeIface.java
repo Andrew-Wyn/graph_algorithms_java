@@ -7,7 +7,7 @@ import java.util.*;
 *
 * @param <ENTITY>
 */
-public interface GraphNodeIface<ENTITY> {
+public interface GraphNodeIface<ENTITY> extends Comparable {
 
     /**
     * @return the id
@@ -17,9 +17,9 @@ public interface GraphNodeIface<ENTITY> {
     /**
     * @return the successors
     */
-    public List<GraphNodeIface> getSuccessors();
+    public List<GraphNodeIface<ENTITY>> getSuccessors();
 
-    public void setSuccessors(List<GraphNodeIface> successors);
+    public void setSuccessors(List<GraphNodeIface<ENTITY>> successors);
 
     /**
     * @return the value

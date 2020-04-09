@@ -9,6 +9,8 @@ jdk: openjdk11
 
 before_install:
  - chmod +x ./DFS_PRJ/gradlew 
+ - chmod +x ./BINSEARCHTREE/gradlew
 
 script:
   - ./DFS_PRJ/gradlew -p ./DFS_PRJ clean build -s
+  - ./BINSEARCHTREE/gradlew -p ./DFS_PRJ clean build -s

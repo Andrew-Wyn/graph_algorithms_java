@@ -2,7 +2,7 @@ package dfs;
 
 import java.util.*;
 
-public class Node implements GraphNodeIface<Integer>, Comparable {
+public class Node implements GraphNodeIface<Integer> {
     
     private int id;
     private Integer value;

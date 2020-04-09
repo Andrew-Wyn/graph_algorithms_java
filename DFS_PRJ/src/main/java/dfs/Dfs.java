@@ -20,6 +20,7 @@ public class Dfs {
 
     private static int timer = 0;
 
+    // va creato un tree per ogni call di DFS_VISIT da DFS
     private static List<Edge> copertureTree = new ArrayList<>();
     private static List<Edge> backwardTree =  new ArrayList<>();
     private static List<Edge> forwardTree = new ArrayList<>();

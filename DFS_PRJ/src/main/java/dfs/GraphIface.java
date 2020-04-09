@@ -1,6 +1,5 @@
 package dfs;
 
-import java.util.*;
 
 /**
  * Defines basic interface for a generic graph
@@ -30,7 +29,7 @@ public interface GraphIface<ENTITY> {
      * @param id
      * @return
      */
-    public GraphNodeIface getNode(int id);
+    public GraphNodeIface<ENTITY> getNode(int id);
 
     /**
      * Return total number of nodes (vertices)
